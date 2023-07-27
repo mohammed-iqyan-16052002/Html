@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+
+    }
+
+    .umar {
+      height: 100vh;
+      width: 100%;
+
+
+      background-image: linear-gradient(to bottom, #ffffff, #d5cee5, #b09ec8, #906ea9, #743d88);
+
+
+    }
+
+    .iqyan {
+      height: 200px;
+      width: 200px;
+      border: 2px;
+      padding: 80px 80px;
+      border-radius: 4px;
+      background-image: linear-gradient(to bottom, #ffffff, #d5cee5, #b09ec8, #906ea9, #743d88);
+      background-repeat: no-repeat;
+   
+    }
+
+    ::placeholder {
+      color: white;
+    }
+
+    #name {
+      margin: 10px;
+
+      font-weight: bold;
+      border-radius: 4px;
+      background-color: rgb(105, 99, 99);
+    }
+
+    #name2 {
+      margin: 10px;
+      font-weight: bold;
+      border-radius: 4px;
+      background-color: rgb(105, 99, 99);
+    }
+
+    #mail {
+      font-weight: bold;
+      color: black;
+      margin: 10px;
+      border-radius: 4px;
+      background-color: rgb(105, 99, 99);
+    }
+
+    #info {
+      text-align: center;
+      margin: 0px 10px;
+    }
+
+    #gender {
+      margin: 10px;
+      font-weight: bold;
+      color: black;
+      background-color: rgb(105, 99, 99);
+      border-radius: 4px;
+    }
+
+    #number {
+      margin: 10px;
+      font-weight: bold;
+      background-color: rgb(105, 99, 99);
+      border-radius: 4px;
+
+    }
+
+    #sub {
+      margin: 1px 2px;
+      font-weight: bold;
+      background-color: rgb(105, 99, 99);
+      border-radius: 4px;
+    }
+
+    #gen {
+      font-weight: bold;
+    }
+
+    #sub:hover {
+      background: white;
+    }
+    .md{
+      width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="umar">
+
+    <div class="md">
+      <div class="iqyan">
+
+        <form action="">
+          <h2 id="info">Registration Info</h2>
+
+          <input type="text" id="name" placeholder="Name">
+
+          <input type="Dob" name="Name" id="name2" placeholder="DateOfBirth">
+          <input type="email" id="mail" placeholder="Enter Your Mail">
+          <input type="number" id="number" placeholder="Phone"><br>
+          <label for="gender" id="gen">Gender:</label>
+          <select name="" id="gender">
+            <option value="">Male</option>
+            <option value="">Female</option>
+            <option value="">Other</option>
+          </select><br>
+          <input type="submit" value="Submit " id="sub">
+
+
+
+        </form>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
